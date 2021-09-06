@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Shoe Inventory</string>
+    <string name="email">Email :</string>
+    <string name="create_account">Create account</string>
+    <string name="password">Password :</string>
+    <string name="login">Login</string>
+    <string name="enter_your_email">Enter your Email</string>
 </resources>

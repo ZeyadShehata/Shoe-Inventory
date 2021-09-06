@@ -9,6 +9,10 @@
         android:name="com.example.android.shoeinventory.ui.login.LoginFragment"
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_welcome"
+            app:destination="@id/fragment_welcome"
+            app:popUpTo="@id/fragment_welcome" />
     </fragment>
     <fragment
         android:id="@+id/fragment_instructions"
