@@ -19,7 +19,12 @@
         android:name="com.example.android.shoeinventory.ui.Instructions.InstructionsFragment"
         android:label="InstructionsFragment"
         tools:layout="@layout/fragment_instructions"
-        />
+        >
+        <action
+            android:id="@+id/action_fragment_instructions_to_fragment_shoe_listings"
+            app:destination="@id/fragment_shoe_listings"
+            app:popUpTo="@id/fragment_welcome" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_welcome"
         android:name="com.example.android.shoeinventory.ui.Welcome.WelcomeFragment"

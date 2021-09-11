@@ -18,6 +18,7 @@ class ShoeListingsFragment: Fragment()
         savedInstanceState: Bundle?
     ): View? {
         val binding : FragmentShoeListingsBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_listings, container, false)
+
         return binding.root
     }
 }
