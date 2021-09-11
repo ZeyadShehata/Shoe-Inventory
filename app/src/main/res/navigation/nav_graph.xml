@@ -23,9 +23,12 @@
     <fragment
         android:id="@+id/fragment_welcome"
         android:name="com.example.android.shoeinventory.ui.Welcome.WelcomeFragment"
-        android:label="WelcomeFragment"
-        tools:layout="@layout/fragment_welcome"
-        />
+        android:label="WelcomeFragment">
+        <action
+            android:id="@+id/action_fragment_welcome_to_fragment_instructions"
+            app:destination="@id/fragment_instructions"
+            app:popUpTo="@id/fragment_login" />
+    </fragment>
     <fragment
         android:id="@+id/fragment_shoe_listings"
         android:name="com.example.android.shoeinventory.ui.ShoeListings.ShoeListingsFragment"
