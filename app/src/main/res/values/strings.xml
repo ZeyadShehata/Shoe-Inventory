@@ -9,4 +9,8 @@
     <string name="this_is_part_of_the_udacity_android_nanodegree">This is part of the Udacity Android NanoDegree</string>
     <string name="in_this_app_you_can_store_information_about_your_shoes_and_retrieve_that_info_at_anytime">In this app, you can store information about your shoes and retrieve that info. at anytime</string>
     <string name="continuee">Continue</string>
+    <string name="instructions">Instructions</string>
+    <string name="_1_in_the_next_screen_press_the_button_to_add_a_new_shoe_to_the_list">1. In the next screen press the +button to add a new shoe to the list</string>
+    <string name="_2_after_you_finish_entering_your_shoe_information_press_the_save_button_to_save_the_shoe_and_add_it_to_the_list">2. After you finish Entering your shoe information press the Save button to save the shoe and add it to the list</string>
+    <string name="startt">Start</string>
 </resources>
