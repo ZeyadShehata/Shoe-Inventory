@@ -5,4 +5,8 @@
     <string name="password">Password :</string>
     <string name="login">Login</string>
     <string name="enter_your_email">Enter your Email</string>
+    <string name="welcome_to_the_shoe_inventory_app">Welcome to the Shoe Inventory App</string>
+    <string name="this_is_part_of_the_udacity_android_nanodegree">This is part of the Udacity Android NanoDegree</string>
+    <string name="in_this_app_you_can_store_information_about_your_shoes_and_retrieve_that_info_at_anytime">In this app, you can store information about your shoes and retrieve that info. at anytime</string>
+    <string name="continuee">Continue</string>
 </resources>
