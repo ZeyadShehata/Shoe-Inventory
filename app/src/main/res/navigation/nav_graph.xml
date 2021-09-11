@@ -39,5 +39,14 @@
         android:name="com.example.android.shoeinventory.ui.ShoeListings.ShoeListingsFragment"
         android:label="ShoeListingsFragment"
         tools:layout="@layout/fragment_shoe_listings"
-        />
+        >
+        <action
+            android:id="@+id/action_fragment_shoe_listings_to_shoeDetailsFragment"
+            app:destination="@id/shoeDetailsFragment"
+            app:popUpTo="@id/fragment_shoe_listings" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeDetailsFragment"
+        android:name="com.example.android.shoeinventory.ui.ShoeDetails.ShoeDetailsFragment"
+        android:label="ShoeDetailsFragment" />
 </navigation>
