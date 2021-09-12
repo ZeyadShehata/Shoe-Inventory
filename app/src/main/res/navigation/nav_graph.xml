@@ -48,5 +48,11 @@
     <fragment
         android:id="@+id/shoeDetailsFragment"
         android:name="com.example.android.shoeinventory.ui.ShoeDetails.ShoeDetailsFragment"
-        android:label="ShoeDetailsFragment" />
+        android:label="ShoeDetailsFragment" >
+        <action
+            android:id="@+id/action_shoeDetailsFragment_to_fragment_shoe_listings"
+            app:destination="@id/fragment_shoe_listings"
+            app:popUpTo="@id/fragment_login" />
+
+    </fragment>
 </navigation>

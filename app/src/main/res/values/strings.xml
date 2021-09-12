@@ -13,4 +13,8 @@
     <string name="_1_in_the_next_screen_press_the_button_to_add_a_new_shoe_to_the_list">1. In the next screen press the +button to add a new shoe to the list</string>
     <string name="_2_after_you_finish_entering_your_shoe_information_press_the_save_button_to_save_the_shoe_and_add_it_to_the_list">2. After you finish Entering your shoe information press the Save button to save the shoe and add it to the list</string>
     <string name="startt">Start</string>
+    <string name="shoe_name">Shoe Name:</string>
+    <string name="company_name">Company Name:</string>
+    <string name="shoe_size">Shoe Size:</string>
+    <string name="description">Description:</string>
 </resources>

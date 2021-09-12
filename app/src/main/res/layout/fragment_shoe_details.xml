@@ -46,7 +46,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/Shoe_name_label"
+                    android:id="@+id/shoe_name_label"
                     android:layout_width="160sp"
                     android:layout_height="wrap_content"
                     android:text="ShoeName:"
@@ -58,7 +58,7 @@
                     android:layout_width="220sp"
                     android:layout_height="wrap_content"
 
-                    android:text="Enter Shoe Name" />
+                    android:hint="Enter Shoe Name" />
             </LinearLayout>
 
             <LinearLayout
@@ -78,7 +78,7 @@
                     android:id="@+id/company_name_field"
                     android:layout_width="220sp"
                     android:layout_height="wrap_content"
-                    android:text="Enter Company Name" />
+                    android:hint="Enter Company Name" />
             </LinearLayout>
 
             <LinearLayout
@@ -98,7 +98,7 @@
                     android:id="@+id/shoe_size_field"
                     android:layout_width="220sp"
                     android:layout_height="wrap_content"
-                    android:text="Enter Shoe Size" />
+                    android:hint="Enter Shoe Size" />
             </LinearLayout>
 
             <LinearLayout
@@ -123,11 +123,11 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textMultiLine|text"
-                android:text="Enter Shoe Description" />
+                android:hint="Enter Shoe Description" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/save_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -139,7 +139,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cancel"
